@@ -1,0 +1,5 @@
+project(meta)
+cmake_minimum_required(VERSION 2.8)
+aux_source_directory(. SRC_LIST)
+add_executable(${PROJECT_NAME} ann/train/backprop.cpp ann/train/ga_train.cpp main.cpp)
+set(CMAKE_CXX_FLAGS "-march=native -O2 -pipe -std=c++11")
