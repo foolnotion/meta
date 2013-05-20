@@ -1,0 +1,2 @@
+This is a metaheuristic optimization framework, containing implementations of a neural network and a generic templated genetic algorithm. Future optimization
+algorithms are planned in the future. The source is rather minimal, so have a look at the files and the example in main.cpp.
